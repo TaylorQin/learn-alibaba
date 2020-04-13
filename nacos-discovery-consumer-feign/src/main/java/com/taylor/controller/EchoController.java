@@ -1,6 +1,6 @@
-package com.learn.controller;
+package com.taylor.controller;
 
-import com.learn.service.EchoService;
+import com.taylor.service.EchoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
