@@ -1,0 +1,12 @@
+server:
+  port: 9400
+
+spring:
+  application:
+    name: sentinel-common-example
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+
+

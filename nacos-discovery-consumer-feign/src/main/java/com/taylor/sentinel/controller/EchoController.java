@@ -1,4 +1,4 @@
-package com.taylor.controller;
+package com.taylor.sentinel.controller;
 
 import com.taylor.service.EchoService;
 import org.springframework.beans.factory.annotation.Autowired;

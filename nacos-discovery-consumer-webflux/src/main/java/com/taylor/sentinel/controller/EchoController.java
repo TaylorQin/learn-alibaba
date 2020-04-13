@@ -1,4 +1,4 @@
-package com.taylor.controller;
+package com.taylor.sentinel.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
