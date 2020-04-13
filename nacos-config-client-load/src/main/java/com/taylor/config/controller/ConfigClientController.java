@@ -1,4 +1,4 @@
-package com.learn.config.controller;
+package com.taylor.config.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
