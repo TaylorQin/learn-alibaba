@@ -50,3 +50,13 @@ public class SentinelConfig {
 在热点规则中对指定的资源添加相应的规则， 热点限流必须通过sentinel资源来配置，就是请求Controller的方法上必须有@SentinelResource
 
 #### 自适应限流规则
+
+
+#### 规则持久化
+- file
+- nacos
+- zk
+- apollo
+- redis
+
+

@@ -4,11 +4,11 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: 127.0.0.1:9500
+        server-addr: 47.111.114.208:9500
         username: nacos
         password: nacos
         file-extension: yml
-        namespace: 17d16ce7-f829-438d-9771-ed9e4bc34002
+        namespace: game
         group: test
 #        shared-dataids: common.yml #只会读取DEFAULT_GROUP中的配置；
 #        refreshable-dataids: true #不配置的话配置中心配置更新后，client端不自动刷新
