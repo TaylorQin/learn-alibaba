@@ -1,13 +1,5 @@
+#如若设置jvm启动参数 -Dspring.profiles.active=prod 优先级更高，会忽略此处的配置
 spring:
-  application:
-    name: nacos-discovery-consumer
-
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 47.111.114.208:8848
-        username: nacos
-        password: nacos
-
-server:
-  port: 9090
+  profiles:
+    active:
+      - dev

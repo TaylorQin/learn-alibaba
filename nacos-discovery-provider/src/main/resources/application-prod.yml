@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: nacos-discovery-provider
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.111.114.208:8848
+        username: nacos
+        password: nacos
+
+server:
+  port: 9091
