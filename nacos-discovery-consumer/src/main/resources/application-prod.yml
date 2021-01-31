@@ -1,3 +1,6 @@
+server:
+  port: 9090
+
 spring:
   application:
     name: nacos-discovery-consumer
@@ -9,5 +12,4 @@ spring:
         username: nacos
         password: nacos
 
-server:
-  port: 9090
+
